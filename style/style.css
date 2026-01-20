@@ -18,6 +18,10 @@
     color: #FFFFFF;
 
 }
+.flex{
+    display: flex;
+    gap: 0.5rem;
+}
 
 .navber{
     background-color: #412567;
@@ -64,8 +68,11 @@
 #banner{
     background-image: url("../assets/hero-bg.png");
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
+    justify-items: center;
+    
 }
 .banner-container{
     width: 35%;
@@ -73,6 +80,201 @@
     margin: 6.25rem auto;
     text-align: center;
 }
+
+.main-logo-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
 #img-1{
-    width:21.8rem;
+    width:64%;
+    height: 64%;
+    max-width: 21.8rem;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+#img-2{
+    width: 21%;
+    height: 31%;
+    max-width: 7.25rem;
+    max-height: 10.93rem;
+    position: absolute;
+
+}
+.new-btn{
+     padding: 0.5rem 1rem;
+    border-radius:625rem;
+    border: none;
+    background-color: #00FF88;
+    position: absolute;
+    top: 13.75rem;
+    right: 31.87rem;
+}
+.brand-title h1{
+    font-size: 2.75rem;
+    font-weight: bolder;
+    margin: 2.5rem auto 0.5rem auto;
+}
+.btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1.5rem auto 6.25rem auto;
+}
+
+.message-btn{
+     padding: 0.75rem 1rem;
+    border-radius:625rem;
+    border:1px solid #00FF88;
+    color: #00FF88;
+}
+
+
+#about-section{
+    background-color: #1A0B2E;
+}
+.about-container{
+    width: 75%;
+    margin: 0 auto;
+    padding-top:50px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+.about-container h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+    
+}
+.about-container p{
+    line-height: 20px;
+    color: #FFFFFF;
+}
+hr{
+    width: 75%;
+    color: #FFFFFF;
+    opacity: 10%;
+    margin: 80px auto;
+}
+.result-div{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#rating{
+    font-size: 48px;
+    font-weight: 900px;
+    color: #00FF88;
+}
+#grid-section{
+    background-color: #230E3D;
+    padding: 120px 200px;
+    text-align: center;
+}
+
+.grid-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+#card-1{
+    grid-area: card-1;
+}
+
+#card-2{
+    grid-area: card-2;
+}
+
+#card-3{
+    grid-area: card-3;
+}
+#card-4{
+    grid-area: card-4;
+}
+#card-5{
+    grid-area: card-5;
+}
+
+
+
+.grid-container{
+    display: grid;
+    width: 75%;
+    margin: 0 auto;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+  grid-template-areas: 
+  "card-1 card-2 card-2"
+  "card-1 card-3 card-3"
+  "card-4 card-4 card-5";
+}
+.grid-card{
+    border-radius: 40px;
+    box-shadow: 0px 4px 4px #000000ab;
+    padding: auto;
+}
+#feature-section{
+    background-color: #1A0B2E;
+    text-align: center;
+    padding-top: 120px;
+}
+.vedio-container{
+    width: 75%;
+    margin: 0 auto;
+}
+#host-section{
+background-color: #1A0B2E;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.host-container{
+     width: 75%;
+    margin: 0 auto;
+}
+.host-card{
+display: flex;
+gap: 24px;
+align-items: center;
+padding: 48px 40px;
+text-align: start;
+border-radius: 40px;
+background-color: #5111657e;
+
+}
+.alex{
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.logo-div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+footer{
+    background-image: url(../assets/footer-bg.png);
+    background-size: cover;
+}
+.footer-container{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 120px;
+}
+
+.icone-container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 32px;
 }
