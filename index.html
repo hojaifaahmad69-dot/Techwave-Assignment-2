@@ -12,13 +12,20 @@
 <body class="inter-font">
     <header>
     <nav class="navber">
-      <h2 id="nav-logo"><img src="./assets/TechWave.png" alt=""></h2>
-       <ul>
-    <li><a href="" class="white-color">About</a></li>
-    <li><a href="" class="white-color">Episodes</a></li>
-    <li><a href="" class="white-color">Host</a></li>
-</ul>
-        <button id="first-btn" class="white-color btn-primary">Subscribe <span><img src="./assets/ArrowRight.png" alt=""></span></button>
+      <div class="nav-logo">
+            <img width="150px" src="./assets/TechWave.png" alt="">
+      </div>
+       <ul class="hidden-items">
+            <li><a href="" class="white-color">About</a></li>
+            <li><a href="" class="white-color">Episodes</a></li>
+            <li><a href="" class="white-color">Host</a></li>
+        </ul>
+        <div>
+            <button id="first-btn" class="white-color btn-primary hidden-items">Subscribe <span><img src="./assets/ArrowRight.png" alt=""></span></button>
+        </div>
+        <div id="hum">
+            <img src="./assets/hamburger-menu.png" alt="">
+        </div>
     </nav>
     <section id="banner">
 <div class="banner-container">
@@ -109,9 +116,26 @@ and share stories of personal growth from industry leaders.</p>
         <section id="feature-section">
 <h3 class="white-color grid-title">Featured Episodes</h3>
 <div class="vedio-container flex">
-<div>
-    <iframe width="380px" src="https://www.youtube.com/embed/MY36HiQkKW8?si=0BQ7VqAjeCs8AZ-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    
     <div class="youtube-card">
+        <iframe src="https://www.youtube.com/embed/MY36HiQkKW8?si=0BQ7VqAjeCs8AZ-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h3 class="white-color">The Future of AI in Everyday Life</h3>
+        <br>
+    <p class="white-color">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+    <br>
+    <div class="flex"><img src="./assets/clock.png" alt=""><p class="green">42 min</p></div>
+    </div>
+    <div class="youtube-card">
+        <iframe src="https://www.youtube.com/embed/MY36HiQkKW8?si=0BQ7VqAjeCs8AZ-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h3 class="white-color">The Future of AI in Everyday Life</h3>
+        <br>
+    <p class="white-color">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+    <br>
+    <div class="flex"><img src="./assets/clock.png" alt=""><p class="green">42 min</p></div>
+    </div>
+    <div class="youtube-card">
+        <iframe src="https://www.youtube.com/embed/MY36HiQkKW8?si=0BQ7VqAjeCs8AZ-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <h3 class="white-color">The Future of AI in Everyday Life</h3>
         <br>
     <p class="white-color">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
@@ -119,26 +143,8 @@ and share stories of personal growth from industry leaders.</p>
     <div class="flex"><img src="./assets/clock.png" alt=""><p class="green">42 min</p></div>
     </div>
 </div>
-<div>
-    <iframe width="380px" src="https://www.youtube.com/embed/MY36HiQkKW8?si=0BQ7VqAjeCs8AZ-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <div class="youtube-card">
-        <h3 class="white-color">The Future of AI in Everyday Life</h3>
-        <br>
-    <p class="white-color">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
-    <br>
-    <div class="flex"><img src="./assets/clock.png" alt=""><p class="green">42 min</p></div>
-    </div>
-</div>
-<div>
-    <iframe width="380px" src="https://www.youtube.com/embed/MY36HiQkKW8?si=0BQ7VqAjeCs8AZ-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <div class="youtube-card">
-        <h3 class="white-color">The Future of AI in Everyday Life</h3>
-        <br>
-    <p class="white-color">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
-    <br>
-    <div class="flex"><img src="./assets/clock.png" alt=""><p class="green">42 min</p></div>
-    </div>
-</div>
+
+
 
 
 
@@ -166,7 +172,7 @@ and share stories of personal growth from industry leaders.</p>
     </main>
     <footer>
 <div class="footer-container">
-    <img src="./assets/TechWave.png" alt="">
+    <img src="./assets/TechWave.png" alt="" class="fotter-img">
     <div class="icone-container">
 <div class="flex"><img src="./assets/spotify.png" alt=""><p class="white-color">Spotify</p></div>
 <div class="flex" ><img src="./assets/apple-podcast.png" alt=""><p class="white-color">Apple Podcasts</p></div>
